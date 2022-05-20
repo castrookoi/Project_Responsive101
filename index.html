@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Host WordPress</title>
+    <link rel="stylesheet" href="./my_ccs/styles.css">
+    <link rel="stylesheet" href="./css/fontawesome-all.min.css">
+</head>
+<body>
+       <Section class="header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.svg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">WordPress</a></li>
+                    <li><a href="">Hosting</a></li>
+                    <li><a href="">Domains</a></li>
+                    <li><a href="">Stores</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </Section>
+          <div class="hero">
+              <h1>Build your WordPress site  on a solid  foundation      </h1>
+              <p>
+                Fast, reliable and packed with features, our WordPress hosting options are designed to fit your needs.
+                </p>
+                <a class="hero_btn">
+                    Find Your Hosting
+                </a>
+
+                 <img src="./images/ladypaint.webp" class="ladyp">
+            </div>
+      
+
+
+    
+    <script>
+        var navLinks = document.getElementById("navLinks")
+            function showMenu() {
+                navLinks.style.right= "0"
+            }
+
+            function hideMenu() {
+                navLinks.style.right= "-200px"}
+   </script>
+</body>
+</html>
